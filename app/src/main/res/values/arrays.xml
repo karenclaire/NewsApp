@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="section_array">
+        <item>"CULTURE"</item>
+        <item>"SPORT"</item>
+        <item>"ENVIRONMENT"</item>
+        <item>"TECHNOLOGY"</item>
+        <item>"MONEY"</item>
+        <item>"WORLD NEWS"</item>
+        <item>"CARDIFF"</item>
+        <item>"OPINION"</item>
+        <item>"NEWS"</item>
+        <item>"AUSTRALIA NEWS"</item>
+        <item>"UK NEWS"</item>
+        <item>"EUROPE NEWS"</item>
+        <item>"ASIA NEWS"</item>
+        <item>"US NEWS"</item>
+        <item>"MEDIA"</item>
+        <item>"STAGE"</item>
+        <item>"ENTERTAINMENT"</item>
+
+    </string-array>
+</resources>

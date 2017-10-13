@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.newsapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/news"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/news"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/settings_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.newsapp.MainActivity"/>
+        </activity>
+    </application>
+
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+</manifest>
+
+    <!--icon care of https://www.google.de/search?q=icons+for+newspaper&rlz=1C1CHBF_deDE743DE743&tbm=isch&imgil=Ozo3aWzE6LaJIM%253A%253BQQpmaGqVbpgibM%253Bhttp%25253A%25252F%25252Fwww.freeiconspng.com%25252Fimg%25252F13624&source=iu&pf=m&fir=Ozo3aWzE6LaJIM%253A%252CQQpmaGqVbpgibM%252C_&usg=__A3EPZVGEPwhhaJe8bwISyngZ0HM%3D&biw=1536&bih=710&ved=0ahUKEwjIzt3mzevUAhVFJlAKHZwEBfEQyjcIRw&ei=Zm5ZWciDLsXMwAKciZSIDw#imgrc=Ozo3aWzE6LaJIM:-->

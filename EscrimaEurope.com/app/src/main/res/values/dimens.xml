@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="padding_contact_bottom_top">4dp</dimen>
+    <dimen name="padding_contact_text_right">16dp</dimen>
+    <dimen name="padding_contact_image_right">4dp</dimen>
+    <dimen name="padding_contact_image_left">16dp</dimen>
+    <dimen name="padding_contact_text_left">4dp</dimen>
+    <dimen name="textSize_contact">17sp</dimen>
+    <dimen name="textSize_header_body_copy">14sp</dimen>
+    <dimen name="padding_header_body_copy">8dp</dimen>
+    <dimen name="padding_relativelayout_top_bottom">16dp</dimen>
+    <dimen name="padding_relativelayout_left_right">64dp</dimen>
+</resources>
